@@ -77,13 +77,13 @@ main hr{
     border: 0;
     background: rgb(139, 129, 129);
     height: 2px;
-    margin: 130px 90px 40px 90px;
+    margin: 90px 90px 40px 90px;
 }
 
 .secondSection{
     max-width: 80vw;
     margin: auto;
-   height: 80vh;
+   height: 60vh;
 }
 
 .secondSection h1{
@@ -93,4 +93,47 @@ main hr{
 .text-gray{
     color: rgb(225, 178, 9);
     font-size: 20px;
+}
+
+.left-second{
+    max-width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+.left-second img{
+    width: 50%;
+    padding-top: 50px;
+}
+.left-second .company{
+    text-align: left;
+    padding: 30px;
+}
+.company h2{
+    text-align: center;
+    font-size: 25px;
+    color: rgb(225, 178, 9);
+
+}
+
+.company p{
+    text-align: justify;
+    font-size: 1rem;
+    color: rgb(113, 170, 189);
+}
+
+.thirdsection{
+    max-width: 80vw;
+    align-items: center;
+    margin: auto;
+    justify-content: space-around;
+    height: 80vh;
+}
+
+.thirdsection .text-yellow{
+    color:rgb(225, 178, 9);
+    font-size: 20px;
+}
+.thirdsection h1{
+    font-size: 2rem;
 }
